@@ -4,7 +4,7 @@ Written by Dr. Sean M. Montgomery - http://produceconsumerobot.com/
 with super awesome MindSet library written by Rob King (http://addi.tv) in collaboration with the Mobile Lab at Ontario College of Art and Design (http://mobilelab.ca/).
 Please let me know if you have any problems.
 
-Below are the instructions to use the MindSetBTViewer processing script to read, plot, and log data from the Neurosky MindSet directly over your computer's bluetooth connection
+Below are the instructions to use the MindSetBTViewer processing script to read, plot, and log data from the Neurosky MindSet directly over your computer's bluetooth connection.
 
 Instructions:
 
@@ -41,12 +41,12 @@ processing\libraries\controlP5\reference\
 processing\libraries\controlP5\src\
 
 Download and extract MindSetBTViewer from 
-http://produceconsumerobot.com/mindset/resources/content/src/MindSetBTViewer.zip
+https://github.com/produceconsumerobot/MindSetBTViewer
 
 Open MindSetBTViewer.pde with processing
 
 Change String serialPort = "COM1"; to whatever bluetooth serial port your MindSet is connected to (e.g. COM41).
 
-If you want to record data, press the green record button. You must have write privileges in your processing directory.
+Hit Run. If you want to record data, press the green record button. You must have write privileges in your processing directory.
 You may change the y-scale of the individual plots using the "*2" and "/2" buttons or in the user-variable section of the code.
 
