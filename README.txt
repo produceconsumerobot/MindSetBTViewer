@@ -43,7 +43,7 @@ processing\libraries\controlP5\src\
 Download and extract MindSetBTViewer from 
 https://github.com/produceconsumerobot/MindSetBTViewer
 
-Open MindSetBTViewer.pde with processing
+Open MindSetBTViewer.pde with processing.
 
 Change String serialPort = "COM1"; to whatever bluetooth serial port your MindSet is connected to (e.g. COM41).
 
