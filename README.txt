@@ -4,11 +4,21 @@ Written by Dr. Sean M. Montgomery - http://produceconsumerobot.com/
 with super awesome MindSet library written by Rob King (http://addi.tv) in collaboration with the Mobile Lab at Ontario College of Art and Design (http://mobilelab.ca/).
 Please let me know if you have any problems.
 
-Below are the instructions to use the MindSetBTViewer processing script to read, plot, and log data from the Neurosky MindSet directly over your computer's bluetooth connection.
+Below are the instructions to use the MindSetBTViewer processing script to read, plot, and log data from the NeuroSky MindSet directly over your computer's bluetooth connection.
+
 
 Materials:
 1	NeuroSky MindSet
 1	Computer
+
+
+Required Software (see below for download instructions):
+Processing
+MindSet Library
+Arduinoscope library
+ControlP5 library
+MindSetBTViewer
+
 
 Instructions:
 
