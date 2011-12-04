@@ -22,9 +22,10 @@ MindSetBTViewer
 
 Instructions:
 
-Follow the instructions that came with your MindSet to connect the MindSet to the Bluetooth port on your computer. Briefly, after installing the software on the CD, plug in the accompanying Bluetooth module, turn on the MindSet and put the headset into discovery mode by holding the play button until the red and blue lights on the MindSet flash. Open the Bluetooth settings on your computer and add a new Bluetooth device in custom mode. Choose the MindSet and add a connection to the serial port. Note the specific serial port that your MindSet is connected to (e.g. COM41) -- you will need it later. Finally, connect to the MindSet using the passkey 0000. You can test whether your MindSet is working properly with NeuroSky’s Brainwave Visualizer.
+Follow the instructions that came with your MindSet to connect the MindSet to the Bluetooth port on your computer. Briefly, after installing the software on the CD, plug in the accompanying Bluetooth module, turn on the MindSet and put the headset into discovery mode by holding the play button until the red and blue lights on the MindSet flash. Open the Bluetooth settings on your computer and add a new Bluetooth device in custom mode. Choose the MindSet and add a connection to the serial port. Note the specific serial port that your MindSet is connected to (e.g. COM41) -- you will need it later. Finally, connect to the MindSet using the passkey 0000. You can test whether your MindSet is working properly with NeuroSkyï¿½s Brainwave Visualizer.
 
 Download and extract Processing software
+*** NOTE *** THESE INSTRUCTIONS WERE DEVELOPED USING PROCESSING V1.1 AND HAVE ENCOUNTERED PROBLEMS (POSSIBLY IN ALTERED DIRECTORY STRUCTURE) IN V1.5.1. I HAVEN'T HAD TIME TO DISCERN A ROBUST SOLUTION, SO IF YOU HAVE TROUBLE, YOU MAY TRY ANOTHER PROCESSING VERSION AND REPORT YOUR PROBLEMS/SOLUTIONS TO UNKNOWNBOT01 -AT- GMAIL -DOT- COM.
 http://processing.org/download/
 getting started - http://processing.org/learning/gettingstarted/
 
@@ -63,7 +64,7 @@ Change String serialPort = "COM1"; to whatever bluetooth serial port your MindSe
 
 Hit Run. If you want to record data, press the green record button. You must have write privileges in your processing directory or change the directory specified in MindSetBTViewer.pde. You may change the y-scale of the individual plots using the "*2" and "/2" buttons or in the user-variable section of the code.
 
-If you haven’t already, put the MindSet on your head and try to get a good EEG signal. Look for low background noise in the Raw EEG and low ErrorRates as seen in the top panel of "signal_quality.jpg". Note how you can clearly see eyeblinks on a low noise background indicating a a high quality signal in the top panel, while in the lower two panels it is not possible to distinguish eyeblinks from background noise. Many times you will get a good signal very quickly, but depending on several factors it can take as much as 30 seconds or more for the MindSet to settle into a good signal. To speed up that process it can be quite helpful to dab your forehead and ear with some salt water (1/4 teaspoon of salt in a cup of water works).
+If you havenï¿½t already, put the MindSet on your head and try to get a good EEG signal. Look for low background noise in the Raw EEG and low ErrorRates as seen in the top panel of "signal_quality.jpg". Note how you can clearly see eyeblinks on a low noise background indicating a a high quality signal in the top panel, while in the lower two panels it is not possible to distinguish eyeblinks from background noise. Many times you will get a good signal very quickly, but depending on several factors it can take as much as 30 seconds or more for the MindSet to settle into a good signal. To speed up that process it can be quite helpful to dab your forehead and ear with some salt water (1/4 teaspoon of salt in a cup of water works).
 
 
 
